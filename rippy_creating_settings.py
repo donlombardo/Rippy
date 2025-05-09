@@ -81,7 +81,7 @@ def create_settings_file(rippy_class):
 
                     # File to check
                     source_file = "rippy_shared_object.c"
-                    download_url = "https://raw.githubusercontent.com/yourusername/yourrepo/main/rippy_shared_object.c"
+                    download_url = "https://raw.githubusercontent.com/donlombardo/Rippy/main/rippy_shared_object.c"
 
                     # Check if the file exists, otherwise download it
                     if not os.path.exists(source_file):
