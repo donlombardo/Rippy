@@ -894,9 +894,6 @@ if __name__ == "__main__":
     main_ripping_process(rippy_class)
 
 
-    if rippy_class.HTOA_BOOL and rippy_class.HTOA_EXIST_BOOL:
-        htoa_rip(rippy_class)
-
     """ Setting up to get TOC for cue sheet and verbose log if needed"""
     
     commands = []
@@ -912,7 +909,8 @@ if __name__ == "__main__":
 
     """ Ripping HTOA if it exists """
 
-
+    if rippy_class.HTOA_BOOL and rippy_class.HTOA_EXIST_BOOL:
+        htoa_rip(rippy_class)
 
 
     """ Creating cue sheet """

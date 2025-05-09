@@ -75,6 +75,12 @@ sudo apt install sox
 pip install pillow
 ```
 
+
+All required packages except for Python 3 and pip can be installed by running the installation script provided with Rippy. However, you are free to install them manually as described above.
+
+You may delete this README file once everything is installed and configured to your satisfaction.
+
+
 ## How to Run
 
 1. Open a terminal in the project folder.
@@ -134,10 +140,34 @@ python3 Rippy.py --MATCHING_BYTES_INT=4 --CAPITALIZE_BOOL=True
 > **Note:** Boolean values are case-sensitive (`True`, `False`). Strings with spaces should be quoted.
 
 
-## Final Note
 
-All required packages except for Python 3 and pip can be installed by running the installation script provided with Rippy. However, you are free to install them manually as described above.
+## Acknowledgements & Thanks
 
-You may delete this README file once everything is installed and configured to your satisfaction.
+Rippy uses or depends on the following external tools and libraries:
 
-I want to thank Millencolin for making Tiny Tunes, so I could use it as a my main test CD for this project. 
+### System Tools & Libraries:
+- **cdparanoia** - GPLv2 — Thank you to Monty and Xiph.Org for making this possible.
+- **libcdio-utils** - GPL
+- **flac** - Free and open under BSD-like terms
+- **cdrdao** - GPLv2
+- **normalize** - GPLv2
+- **sox** - LGPL-2.1-or-later
+
+### Python Libraries:
+- **pytaglib** - GPLv3+
+- **taglib** - LGPL / MPL
+- **python3-discogs-client** - BSD-like
+- **musicbrainzngs** - BSD-like
+- **pillow** - MIT-CMU
+- **pip** - MIT
+- **Python 3** - PSF License
+- **python-audio-tools** - Portions modified, originally GPLv2
+
+### Development Tools (for AccurateRip compilation):
+- **python3-dev** and **build-essential** — system packages under various permissive and copyleft licenses
+
+All trademarks, logos, and brand names are the property of their respective owners.
+
+Thank you to all open source developers whose work made this software possible.
+
+I especially want to thank Millencolin for making Tiny Tunes, so I could use it as a my main test CD for this project. 

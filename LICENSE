@@ -12,34 +12,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License v3
 along with this program. If not, see <https://www.gnu.org/licenses/>.
-
----
-
-## Acknowledgements & Thanks
-
-Rippy uses or depends on the following external tools and libraries:
-
-### System Tools & Libraries:
-- **cdparanoia** - GPLv2 — Thank you to Monty and Xiph.Org for making this possible.
-- **libcdio-utils** - GPL
-- **flac** - Free and open under BSD-like terms
-- **cdrdao** - GPLv2
-- **normalize** - GPLv2
-- **sox** - LGPL-2.1-or-later
-
-### Python Libraries:
-- **pytaglib** - GPLv3+
-- **taglib** - LGPL / MPL
-- **python3-discogs-client** - BSD-like
-- **musicbrainzngs** - BSD-like
-- **pillow** - MIT-CMU
-- **pip** - MIT
-- **Python 3** - PSF License
-- **python-audio-tools** - Portions modified, originally GPLv2
-
-### Development Tools (for AccurateRip compilation):
-- **python3-dev** and **build-essential** — system packages under various permissive and copyleft licenses
-
-All trademarks, logos, and brand names are the property of their respective owners.
-
-Thank you to all open source developers whose work made this software possible.

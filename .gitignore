@@ -3,6 +3,7 @@ Arkiv/
 __pycache__/
 
 # Ignorera specifika filer
+.gitignore
 ny
 dependencies
 rippy_settings_file.py
