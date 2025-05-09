@@ -703,7 +703,7 @@ def reconstruct_track(filenames, rippy_class, output_file):
     except:
         got_numpy = False
 
-    got_numpy = False
+
 
     with open(output_file, "r+b") as new_file:
         position = 0
