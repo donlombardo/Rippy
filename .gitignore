@@ -1,0 +1,14 @@
+# Ignorera specifika mappar
+Arkiv/
+__pycache__/
+
+# Ignorera specifika filer
+ny
+dependencies
+rippy_settings_file.py
+
+# Ignorera alla .so-filer i projektets rotmapp
+/*.so
+/temp_data*
+# Ignore UUID-like folders
+[0-9a-fA-F]*-[0-9a-fA-F]*-[0-9a-fA-F]*-[0-9a-fA-F]*-[0-9a-fA-F]*/
