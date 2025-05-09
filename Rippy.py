@@ -1,10 +1,4 @@
-#Rippy V1.3 from 
-#Todo nu:
-#Testa alla versioner
-
-#Senare:
-#Fix a gui for inputting album info manually, with Tkinter
-
+#Rippy V2.0 from 2025-05-09 
 
 import os
 import subprocess
@@ -79,8 +73,8 @@ class RippyClass:
         self.ERRONOUS_BOOL = False
         self.HTOA_EXIST_BOOL = False
         self.HTOA_RIPPED_BOOL = False
-        self.RIPPY_VERSION_STR = "1.3"
-        self.VERSION_DATE_STR = "March 3rd 2025"
+        self.RIPPY_VERSION_STR = "2.0"
+        self.VERSION_DATE_STR = "May 9th 2025"
         self.APOSTROPHE_BOOL = None
         self.BONUS_BOOL = None
         self.CAPITALIZE_BOOL = None
