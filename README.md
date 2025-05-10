@@ -5,6 +5,8 @@
 
 Rippy is a Python 3 script for Linux, for ripping full CDs to flac files meticulously with cdparanoia III release 10.2 (September 11, 2008).
 
+Rippy has support for test-and-copy (making rips byte-for-byte perfect), AccurateRip™, a verbose log and cue mechanism, a thought-out setting system with both offset correction and several levels of accuracy, a spectrogram function, support for tagging with both MusicBrainz and Discogs, track gain and bitrate support — and more!
+
 This document outlines the required and optional software dependencies, how to install them, and how to run the program. Rippy is only tested on 64-bit systems, and works for Python 3.7 - 3.14.
 
 ## Required Software
