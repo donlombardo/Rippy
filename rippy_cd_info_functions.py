@@ -270,7 +270,9 @@ def discogs_or_manual(rippy_class):
                 tracklist.append(special_input(f"Track name: "))
         else:
             various = [character_change(artist, rippy_class.CAPITALIZE_BOOL, rippy_class.APOSTROPHE_BOOL)] * rippy_class.TRACK_AMOUNT_INT
-
+            for i in range(1, int(rippy_class.TRACK_AMOUNT_INT) + 1):
+                print(f"{i}/{rippy_class.TRACK_AMOUNT_INT}")
+                tracklist.append(special_input(f"Track name: "))
         print()
         comment = special_input("Do you want a comment tag? Write your comment here or just press Enter: ")
 
